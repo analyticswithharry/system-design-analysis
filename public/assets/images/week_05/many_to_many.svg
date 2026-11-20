@@ -1,0 +1,4 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 200" font-family="sans-serif" font-size="16"><rect width="640" height="200" fill="#fff"/>
+<g fill="#e8f1f5" stroke="#14212e" stroke-width="2"><rect x="30" y="70" width="150" height="60" rx="8"/><rect x="460" y="70" width="150" height="60" rx="8"/></g>
+<g fill="#14212e" text-anchor="middle" font-weight="bold"><text x="105" y="106">Employee</text><text x="535" y="106">Project</text><text x="320" y="88" font-weight="normal">works on</text></g>
+<g stroke="#14212e" stroke-width="2" fill="none"><path d="M180 100H460"/><path d="M180 100L160 88M180 100L160 112M460 100L480 88M460 100L480 112"/></g></svg>

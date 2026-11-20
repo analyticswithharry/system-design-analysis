@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CN7039 Systems Analysis Quiz</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@600;800&family=Source+Sans+3:wght@400;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
+  <link rel="stylesheet" href="assets/css/styles.css" />
+</head>
+<body>
+  <main class="app">
+    <header class="top">
+      <div>
+        <h1>CN7039 Systems Analysis Quiz</h1>
+        <p class="sub">Analytics with Harry &middot; Weeks 1 to 6</p>
+      </div>
+      <button id="theme-btn" class="icon-btn" aria-label="Toggle dark mode"><i class="fas fa-moon"></i></button>
+    </header>
+
+    <!-- Setup screen -->
+    <section id="setup" class="panel">
+      <div class="field">
+        <label for="chapter-select">Pick a week</label>
+        <select id="chapter-select"><option value="">Select a week</option></select>
+      </div>
+      <fieldset class="settings">
+        <legend>Quiz settings</legend>
+        <label class="toggle"><input type="checkbox" id="interactive-feedback" checked /> Instant feedback (green correct, red wrong)</label>
+        <label class="toggle"><input type="checkbox" id="show-explanation" checked /> Show explanation after each answer</label>
+        <label class="toggle"><input type="checkbox" id="shuffle" /> Shuffle answer order</label>
+      </fieldset>
+      <button id="start-quiz-btn" class="btn primary" disabled><i class="fas fa-play"></i> Start quiz</button>
+    </section>
+
+    <!-- Quiz screen -->
+    <section id="quiz" class="panel" hidden>
+      <div class="meter">
+        <div class="meter-row">
+          <span id="counter">Question 1 of 1</span>
+          <span id="live-score"><i class="fas fa-check-circle"></i> 0 correct</span>
+        </div>
+        <div class="bar" role="progressbar" aria-label="Progress"><div id="bar-fill"></div></div>
+      </div>
+      <article id="card">
+        <div id="tags" class="tags"></div>
+        <h2 id="q-text"></h2>
+        <figure id="q-figure" hidden><img id="q-img" alt="" /><figcaption id="q-cap"></figcaption></figure>
+        <div id="options" class="options" role="radiogroup"></div>
+        <div id="explain" class="explain" hidden></div>
+      </article>
+      <div class="actions">
+        <button id="skip-btn" class="btn ghost">Finish now</button>
+        <button id="next-btn" class="btn primary" disabled>Next <i class="fas fa-arrow-right"></i></button>
+      </div>
+    </section>
+  </main>
+  <script src="assets/js/scripts.js"></script>
+</body>
+</html>

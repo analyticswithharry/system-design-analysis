@@ -1,0 +1,374 @@
+[
+  {
+    "id": 1,
+    "topic": "DFD basics",
+    "difficulty": "Easy",
+    "question": "Which are the four key components of a DFD?",
+    "options": [
+      "External entity, process, data store and data flow",
+      "Actor, use case, class and object",
+      "Table, query, form and report",
+      "Entity, attribute, key and relationship"
+    ],
+    "correctAnswer": "External entity, process, data store and data flow",
+    "explanation": "A DFD is a process model showing how data moves through a business system."
+  },
+  {
+    "id": 2,
+    "topic": "Notation",
+    "difficulty": "Easy",
+    "question": "How is an external entity drawn in the lecture's DFD notation?",
+    "options": [
+      "As an oval",
+      "As an open-ended rectangle",
+      "As a box with a number in the top corner",
+      "As an arrow"
+    ],
+    "correctAnswer": "As an oval",
+    "explanation": "A process is a box with a sequence number, the person responsible and the action. A data store is an open-ended rectangle."
+  },
+  {
+    "id": 3,
+    "topic": "Notation",
+    "difficulty": "Medium",
+    "question": "What three things appear in a process box?",
+    "options": [
+      "Sequence number, person responsible and what will happen",
+      "Name, address and phone",
+      "Input, output and database",
+      "Entity, key and cardinality"
+    ],
+    "correctAnswer": "Sequence number, person responsible and what will happen",
+    "explanation": "For example 2, Sales Clerk, Validate Customer Order."
+  },
+  {
+    "id": 4,
+    "topic": "Notation",
+    "difficulty": "Medium",
+    "question": "What must the name of every process contain?",
+    "options": [
+      "A verb",
+      "A number only",
+      "A database name",
+      "A person's name only"
+    ],
+    "correctAnswer": "A verb",
+    "explanation": "The verb shows the action, for example Validate Order."
+  },
+  {
+    "id": 5,
+    "topic": "Notation",
+    "difficulty": "Medium",
+    "question": "How are data stores numbered?",
+    "options": [
+      "D1, D2, D3 for computer data and M1, M2, M3 for manual files",
+      "1, 2, 3 for all stores",
+      "A, B, C",
+      "P1, P2, P3"
+    ],
+    "correctAnswer": "D1, D2, D3 for computer data and M1, M2, M3 for manual files",
+    "explanation": "Data stores show where data is resting in the system."
+  },
+  {
+    "id": 6,
+    "topic": "Rules",
+    "difficulty": "Medium",
+    "question": "Which data flow is allowed in a DFD?",
+    "options": [
+      "Between an external entity and a process",
+      "Between two external entities",
+      "Between two data stores",
+      "Between an external entity and a data store"
+    ],
+    "correctAnswer": "Between an external entity and a process",
+    "explanation": "Flows may also run process to process, and process to store."
+  },
+  {
+    "id": 7,
+    "topic": "Rules",
+    "difficulty": "Hard",
+    "question": "In the diagram, process 1 Assign Advisor sends out a Student ID number but has no input. Which rule is broken?",
+    "options": [
+      "A process cannot create output from nothing (a miracle)",
+      "A process needs two outputs",
+      "A process cannot have a verb",
+      "A process must be connected to a database"
+    ],
+    "correctAnswer": "A process cannot create output from nothing (a miracle)",
+    "explanation": "Every process needs at least one input and one output, and the input must come from somewhere such as an external entity.",
+    "image": "assets/images/week_06/wrong_dfd.jpg",
+    "imageAlt": "Student advising DFD with processes, data stores and entities",
+    "imageCaption": "Can you spot the mistakes?"
+  },
+  {
+    "id": 8,
+    "topic": "Rules",
+    "difficulty": "Hard",
+    "question": "In the diagram, process 3 Check Open Classes receives a flow but sends nothing out. What is this called?",
+    "options": [
+      "A sinkhole (black hole)",
+      "A miracle",
+      "A balanced process",
+      "A functional primitive"
+    ],
+    "correctAnswer": "A sinkhole (black hole)",
+    "explanation": "A process with input but no output is an activity sink.",
+    "image": "assets/images/week_06/wrong_dfd.jpg",
+    "imageAlt": "Student advising DFD with processes, data stores and entities",
+    "imageCaption": "Can you spot the mistakes?"
+  },
+  {
+    "id": 9,
+    "topic": "Rules",
+    "difficulty": "Hard",
+    "question": "In the diagram, a flow runs from D5 Class Roster to D6 Seating Chart. What is wrong?",
+    "options": [
+      "Data stores cannot talk to each other without a process in between",
+      "Data stores must be ovals",
+      "D5 has too many outputs",
+      "The flow has no label"
+    ],
+    "correctAnswer": "Data stores cannot talk to each other without a process in between",
+    "explanation": "A process must move the data between two data stores.",
+    "image": "assets/images/week_06/wrong_dfd.jpg",
+    "imageAlt": "Student advising DFD with processes, data stores and entities",
+    "imageCaption": "Can you spot the mistakes?"
+  },
+  {
+    "id": 10,
+    "topic": "Rules",
+    "difficulty": "Hard",
+    "question": "In the diagram, a flow runs from D5 Class Roster directly to the Instructor. What is wrong?",
+    "options": [
+      "A data store cannot connect to an external entity without a process in between",
+      "The Instructor should be a data store",
+      "The flow should be dashed",
+      "Instructor is not a verb"
+    ],
+    "correctAnswer": "A data store cannot connect to an external entity without a process in between",
+    "explanation": "A process is needed to read the data out of the store and send it to the entity.",
+    "image": "assets/images/week_06/wrong_dfd.jpg",
+    "imageAlt": "Student advising DFD with processes, data stores and entities",
+    "imageCaption": "Can you spot the mistakes?"
+  },
+  {
+    "id": 11,
+    "topic": "Rules",
+    "difficulty": "Hard",
+    "question": "In the diagram, a flow runs from the Instructor straight to the Student. What is wrong?",
+    "options": [
+      "Two external entities cannot exchange data without a process between them",
+      "Students cannot receive schedules",
+      "The Instructor needs a number",
+      "The flow is too long"
+    ],
+    "correctAnswer": "Two external entities cannot exchange data without a process between them",
+    "explanation": "Anything passing between entities must go through a process of the system.",
+    "image": "assets/images/week_06/wrong_dfd.jpg",
+    "imageAlt": "Student advising DFD with processes, data stores and entities",
+    "imageCaption": "Can you spot the mistakes?"
+  },
+  {
+    "id": 12,
+    "topic": "Rules",
+    "difficulty": "Hard",
+    "question": "In the diagram, the Student sends only a Student ID number into process 4 Calculate Grade. What is the problem?",
+    "options": [
+      "A student ID number is not an input that can produce a final grade (impossible)",
+      "Process 4 has no number",
+      "The Student is not an entity",
+      "The flow has an arrow"
+    ],
+    "correctAnswer": "A student ID number is not an input that can produce a final grade (impossible)",
+    "explanation": "The input does not make sense for the process, just like date of birth cannot calculate a grade.",
+    "image": "assets/images/week_06/wrong_dfd.jpg",
+    "imageAlt": "Student advising DFD with processes, data stores and entities",
+    "imageCaption": "Can you spot the mistakes?"
+  },
+  {
+    "id": 13,
+    "topic": "Rules",
+    "difficulty": "Hard",
+    "question": "In the diagram, process 4 is named Calculate Grade and sends Final Grade to D4 Grades. What is wrong with the process name?",
+    "options": [
+      "Calculating does not imply saving, so it should say calculate and save the grades",
+      "It should be a noun",
+      "It should include a person's name",
+      "It should be shorter"
+    ],
+    "correctAnswer": "Calculating does not imply saving, so it should say calculate and save the grades",
+    "explanation": "The action in the name must match what is actually happening with the data store.",
+    "image": "assets/images/week_06/wrong_dfd.jpg",
+    "imageAlt": "Student advising DFD with processes, data stores and entities",
+    "imageCaption": "Can you spot the mistakes?"
+  },
+  {
+    "id": 14,
+    "topic": "Context diagram",
+    "difficulty": "Easy",
+    "question": "What does a context diagram contain?",
+    "options": [
+      "One process box for the whole system, the external entities and the flows between them",
+      "Several processes and data stores",
+      "Only data stores",
+      "Only external entities"
+    ],
+    "correctAnswer": "One process box for the whole system, the external entities and the flows between them",
+    "explanation": "Its purpose is to examine the interfaces between external entities and the system at a high level."
+  },
+  {
+    "id": 15,
+    "topic": "Context diagram",
+    "difficulty": "Medium",
+    "question": "How many external entities does the grading context diagram have?",
+    "options": [
+      "3",
+      "1",
+      "2",
+      "4"
+    ],
+    "correctAnswer": "3",
+    "explanation": "The entities are Students records system, student and Instructor, around one process, Grading system.",
+    "image": "assets/images/week_06/grading_context.jpg",
+    "imageAlt": "Context diagram of a grading system with three external entities",
+    "imageCaption": "Grading system"
+  },
+  {
+    "id": 16,
+    "topic": "Context diagram",
+    "difficulty": "Medium",
+    "question": "In the grading context diagram, which flow goes from the Grading system to the Instructor?",
+    "options": [
+      "Grade report",
+      "Grading parameters",
+      "Class Roster",
+      "Submitted Work"
+    ],
+    "correctAnswer": "Grade report",
+    "explanation": "Grading parameters flow the other way, from the Instructor into the system.",
+    "image": "assets/images/week_06/grading_context.jpg",
+    "imageAlt": "Context diagram of a grading system with three external entities",
+    "imageCaption": "Grading system"
+  },
+  {
+    "id": 17,
+    "topic": "Context diagram",
+    "difficulty": "Medium",
+    "question": "In the hotel booking context diagram, which external entity sends the Accepted list to the system?",
+    "options": [
+      "Manager",
+      "Guest",
+      "Receptionist",
+      "Bank"
+    ],
+    "correctAnswer": "Manager",
+    "explanation": "The Guest sends Booking, and the Manager receives Booking Reports.",
+    "image": "assets/images/week_06/hotel_context.jpg",
+    "imageAlt": "Hotel booking system context diagram with Guest, Manager and Receptionist",
+    "imageCaption": "Hotel booking system"
+  },
+  {
+    "id": 18,
+    "topic": "Levelling",
+    "difficulty": "Medium",
+    "question": "What rule must a Level 0 diagram follow compared with its context diagram?",
+    "options": [
+      "It must have the same number of inputs and outputs (balanced)",
+      "It must have more external entities",
+      "It must have no data stores",
+      "It must show only one process"
+    ],
+    "correctAnswer": "It must have the same number of inputs and outputs (balanced)",
+    "explanation": "A Level 0 diagram usually shows 3 to 6 processes, numbered 1, 2, 3."
+  },
+  {
+    "id": 19,
+    "topic": "Levelling",
+    "difficulty": "Medium",
+    "question": "What is the correct order when developing DFDs?",
+    "options": [
+      "Context, Level 0, Level 1, then lower levels down to functional primitives",
+      "Level 2, Level 1, Level 0, context",
+      "Level 0, context, Level 1",
+      "Physical, logical, context"
+    ],
+    "correctAnswer": "Context, Level 0, Level 1, then lower levels down to functional primitives",
+    "explanation": "A functional primitive is a single business function such as add or delete."
+  },
+  {
+    "id": 20,
+    "topic": "Levelling",
+    "difficulty": "Medium",
+    "question": "What is the benefit of levelling a DFD?",
+    "options": [
+      "It avoids a cluttered diagram and makes it easy to see what a process does",
+      "It removes the need for external entities",
+      "It adds more data stores",
+      "It turns the DFD into an ERD"
+    ],
+    "correctAnswer": "It avoids a cluttered diagram and makes it easy to see what a process does",
+    "explanation": "Showing every process on one diagram makes it cluttered."
+  },
+  {
+    "id": 21,
+    "topic": "Logical and physical",
+    "difficulty": "Medium",
+    "question": "How do logical and physical DFDs differ?",
+    "options": [
+      "Logical shows the flow of data for business functions; physical shows how it is implemented through specific methods",
+      "Logical is for hardware; physical is for users",
+      "Logical has data stores; physical does not",
+      "They are the same"
+    ],
+    "correctAnswer": "Logical shows the flow of data for business functions; physical shows how it is implemented through specific methods",
+    "explanation": "A physical DFD communicates technical choices to those who will build the system."
+  },
+  {
+    "id": 22,
+    "topic": "Drawing steps",
+    "difficulty": "Medium",
+    "question": "When drawing a Level 0 diagram from a case study, how do you identify potential processes?",
+    "options": [
+      "Take one sentence at a time and look for verbs",
+      "Look for nouns only",
+      "Count the paragraphs",
+      "List all the databases first"
+    ],
+    "correctAnswer": "Take one sentence at a time and look for verbs",
+    "explanation": "Then identify the data flows and data stores and draw the diagram."
+  },
+  {
+    "id": 23,
+    "topic": "Attendance case",
+    "difficulty": "Medium",
+    "question": "Which of these is NOT an external entity in the tap-on attendance DFD?",
+    "options": [
+      "Student Attendance System",
+      "Teacher",
+      "Student",
+      "Student Affairs"
+    ],
+    "correctAnswer": "Student Attendance System",
+    "explanation": "It is a data store labelled D1. The ovals are the external entities.",
+    "image": "assets/images/week_06/attendance_dfd.jpg",
+    "imageAlt": "Tap-on attendance DFD with Teacher, Student and Student Affairs and seven processes",
+    "imageCaption": "Tap-on attendance system"
+  },
+  {
+    "id": 24,
+    "topic": "Attendance case",
+    "difficulty": "Medium",
+    "question": "In the tap-on attendance DFD, which process number is Run Attendance Check?",
+    "options": [
+      "4",
+      "2",
+      "5",
+      "7"
+    ],
+    "correctAnswer": "4",
+    "explanation": "Process 5 then sends the automatic email.",
+    "image": "assets/images/week_06/attendance_dfd.jpg",
+    "imageAlt": "Tap-on attendance DFD with Teacher, Student and Student Affairs and seven processes",
+    "imageCaption": "Tap-on attendance system"
+  }
+]

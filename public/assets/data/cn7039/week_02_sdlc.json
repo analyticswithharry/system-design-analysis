@@ -1,0 +1,257 @@
+[
+  {
+    "id": 1,
+    "topic": "SDLC",
+    "difficulty": "Easy",
+    "question": "Which is the correct order of the seven SDLC phases?",
+    "options": [
+      "Planning, Analysis, Design, Development, Testing, Implementation, Maintenance",
+      "Analysis, Planning, Design, Testing, Development, Implementation, Maintenance",
+      "Planning, Design, Analysis, Development, Testing, Maintenance, Implementation",
+      "Design, Planning, Analysis, Development, Implementation, Testing, Maintenance"
+    ],
+    "correctAnswer": "Planning, Analysis, Design, Development, Testing, Implementation, Maintenance",
+    "explanation": "Every methodology for information system projects is based on these steps."
+  },
+  {
+    "id": 2,
+    "topic": "SDLC",
+    "difficulty": "Medium",
+    "question": "Which outcome belongs to the Planning phase?",
+    "options": [
+      "Project plans, critical success factors and a project scope document",
+      "Technical architecture design",
+      "Test reports",
+      "User documentation and training"
+    ],
+    "correctAnswer": "Project plans, critical success factors and a project scope document",
+    "explanation": "Planning defines what we do, sets the scope and develops tasks, resources and timeframe."
+  },
+  {
+    "id": 3,
+    "topic": "SDLC",
+    "difficulty": "Medium",
+    "question": "What does going beyond the original project plans (scope creep and feature creep) refer to?",
+    "options": [
+      "Adding work or features beyond the agreed scope",
+      "Delivering earlier than planned",
+      "Reusing existing components",
+      "Removing features after testing"
+    ],
+    "correctAnswer": "Adding work or features beyond the agreed scope",
+    "explanation": "Both are tracked through the project scope document."
+  },
+  {
+    "id": 4,
+    "topic": "SDLC",
+    "difficulty": "Medium",
+    "question": "In the Analysis phase, IT specialists and users work together in a session called:",
+    "options": [
+      "JAD (Joint Application Development)",
+      "RAD",
+      "XP",
+      "CSF"
+    ],
+    "correctAnswer": "JAD (Joint Application Development)",
+    "explanation": "Analysis ends with prioritised requirements and approval/sign-off."
+  },
+  {
+    "id": 5,
+    "topic": "SDLC",
+    "difficulty": "Medium",
+    "question": "Which two items are outcomes of the Design phase?",
+    "options": [
+      "Technical architecture design and a system model",
+      "Progress reports and the product",
+      "Test reports and a help desk",
+      "Planning report and scope document"
+    ],
+    "correctAnswer": "Technical architecture design and a system model",
+    "explanation": "The architecture defines hardware, software and telecom equipment; the model is a graphical representation."
+  },
+  {
+    "id": 6,
+    "topic": "SDLC",
+    "difficulty": "Easy",
+    "question": "Building a help desk and supporting system changes belong to which phase?",
+    "options": [
+      "Maintenance",
+      "Implementation",
+      "Testing",
+      "Design"
+    ],
+    "correctAnswer": "Maintenance",
+    "explanation": "Maintenance covers minor changes and improvements after delivery."
+  },
+  {
+    "id": 7,
+    "topic": "SDLC",
+    "difficulty": "Hard",
+    "question": "Which four implementation methods are named in the lecture?",
+    "options": [
+      "Parallel, plunge, pilot and phased",
+      "Parallel, linear, pilot and agile",
+      "Plunge, waterfall, phased and prototype",
+      "Pilot, XP, phased and parallel"
+    ],
+    "correctAnswer": "Parallel, plunge, pilot and phased",
+    "explanation": "Remember them by the first letters P, P, P, P."
+  },
+  {
+    "id": 8,
+    "topic": "SDLC",
+    "difficulty": "Medium",
+    "question": "Why should errors be fixed as early as possible in the SDLC?",
+    "options": [
+      "The cost to fix them is small early on and huge in later stages",
+      "Early errors are easier to find with automated tools",
+      "Clients refuse to pay for late fixes",
+      "Later phases cannot be changed at all"
+    ],
+    "correctAnswer": "The cost to fix them is small early on and huge in later stages",
+    "explanation": "That is why time is taken during analysis to get the business requirements right."
+  },
+  {
+    "id": 9,
+    "topic": "Waterfall",
+    "difficulty": "Hard",
+    "question": "In the diagram, what does the dashed arrow show that separates Waterfall from the Linear approach?",
+    "options": [
+      "You can go back up the stream to fix problems",
+      "Phases run in parallel",
+      "Testing is skipped",
+      "Maintenance comes first"
+    ],
+    "correctAnswer": "You can go back up the stream to fix problems",
+    "explanation": "The Linear approach is very strict and does not allow going back.",
+    "image": "assets/images/week_02/waterfall.svg",
+    "imageAlt": "Seven phases stepping down from Planning to Maintenance with a dashed arrow returning to the top",
+    "imageCaption": "Waterfall approach"
+  },
+  {
+    "id": 10,
+    "topic": "Linear approach",
+    "difficulty": "Medium",
+    "question": "Which is a problem with the Linear approach?",
+    "options": [
+      "It assumes clients know what they want from the start",
+      "It involves clients too much",
+      "It allows endless rework",
+      "It has no testing phase"
+    ],
+    "correctAnswer": "It assumes clients know what they want from the start",
+    "explanation": "Client contact is limited to the first two stages."
+  },
+  {
+    "id": 11,
+    "topic": "Sourcing",
+    "difficulty": "Easy",
+    "question": "A company builds a defence system using its own IT department. This is:",
+    "options": [
+      "Insourcing",
+      "Selfsourcing",
+      "Outsourcing",
+      "Prototyping"
+    ],
+    "correctAnswer": "Insourcing",
+    "explanation": "Insourcing suits sensitive, strategic or unique systems and in-house expertise."
+  },
+  {
+    "id": 12,
+    "topic": "Sourcing",
+    "difficulty": "Medium",
+    "question": "An employee builds a small spreadsheet-and-database tool with little IT help. This is:",
+    "options": [
+      "Selfsourcing",
+      "Insourcing",
+      "Outsourcing",
+      "Pilot implementation"
+    ],
+    "correctAnswer": "Selfsourcing",
+    "explanation": "It tends to be for small or local systems."
+  },
+  {
+    "id": 13,
+    "topic": "Sourcing",
+    "difficulty": "Hard",
+    "question": "Which system should never be selfsourced?",
+    "options": [
+      "An ERP, CRM or SCM system",
+      "A personal spreadsheet",
+      "A small departmental database",
+      "A simple website for a small shop"
+    ],
+    "correctAnswer": "An ERP, CRM or SCM system",
+    "explanation": "Infrastructure systems and systems supporting many users also should not be selfsourced."
+  },
+  {
+    "id": 14,
+    "topic": "Sourcing",
+    "difficulty": "Medium",
+    "question": "Which is a disadvantage of outsourcing?",
+    "options": [
+      "It increases dependency on other organizations and reduces control",
+      "It makes costs harder to predict",
+      "It lowers accountability",
+      "It prevents access to specialist skills"
+    ],
+    "correctAnswer": "It increases dependency on other organizations and reduces control",
+    "explanation": "Outsourcing also risks exposing strategic systems and weakens in-house skills."
+  },
+  {
+    "id": 15,
+    "topic": "Component-based",
+    "difficulty": "Medium",
+    "question": "Component-based development focuses on:",
+    "options": [
+      "Small self-contained blocks of code that can be reused across applications",
+      "Building every system from scratch",
+      "Writing documentation first",
+      "Delaying testing until the end"
+    ],
+    "correctAnswer": "Small self-contained blocks of code that can be reused across applications",
+    "explanation": "Examples are a time component, an email component or a credit card component."
+  },
+  {
+    "id": 16,
+    "topic": "Component-based",
+    "difficulty": "Medium",
+    "question": "Which methodology emphasises extensive user involvement in rapidly building working prototypes?",
+    "options": [
+      "RAD (Rapid Application Development)",
+      "Linear",
+      "Waterfall",
+      "Plunge"
+    ],
+    "correctAnswer": "RAD (Rapid Application Development)",
+    "explanation": "RAD looks in the software library first and adds new components for future reuse."
+  },
+  {
+    "id": 17,
+    "topic": "Prototyping",
+    "difficulty": "Medium",
+    "question": "Which is an advantage of prototyping?",
+    "options": [
+      "It encourages user participation and helps sell the idea",
+      "It guarantees the final system is faster",
+      "It removes the need for testing",
+      "It shows all operational limitations"
+    ],
+    "correctAnswer": "It encourages user participation and helps sell the idea",
+    "explanation": "It also helps resolve differences between users and shows technical feasibility."
+  },
+  {
+    "id": 18,
+    "topic": "Prototyping",
+    "difficulty": "Hard",
+    "question": "Which is a disadvantage of prototyping?",
+    "options": [
+      "It may lead people to think the final system will come soon",
+      "It discourages user feedback",
+      "It cannot be iterated",
+      "It is only for software"
+    ],
+    "correctAnswer": "It may lead people to think the final system will come soon",
+    "explanation": "It also gives no indication of operational limitations and teams may skip documenting and testing."
+  }
+]

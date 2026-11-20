@@ -1,0 +1,26 @@
+[
+  {
+    "name": "Week 1 - Introduction and Overview",
+    "file": "week_01_introduction.json"
+  },
+  {
+    "name": "Week 2 - Systems Development (SDLC)",
+    "file": "week_02_sdlc.json"
+  },
+  {
+    "name": "Week 3 - System Analysis Tools: Use Cases",
+    "file": "week_03_use_cases.json"
+  },
+  {
+    "name": "Week 4 - Relational Databases and Keys",
+    "file": "week_04_relational_databases.json"
+  },
+  {
+    "name": "Week 5 - Entity Relationship Diagrams",
+    "file": "week_05_erd.json"
+  },
+  {
+    "name": "Week 6 - Data Flow Diagrams",
+    "file": "week_06_dfd.json"
+  }
+]

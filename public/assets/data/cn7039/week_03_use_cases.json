@@ -1,0 +1,187 @@
+[
+  {
+    "id": 1,
+    "topic": "UML",
+    "difficulty": "Easy",
+    "question": "What does UML stand for?",
+    "options": [
+      "Unified Modeling Language",
+      "Universal Modelling Logic",
+      "User Management Language",
+      "Unified Method Layout"
+    ],
+    "correctAnswer": "Unified Modeling Language",
+    "explanation": "It is a standard language for specifying, visualizing, constructing and documenting systems."
+  },
+  {
+    "id": 2,
+    "topic": "UML",
+    "difficulty": "Medium",
+    "question": "Use case diagrams belong to which UML category?",
+    "options": [
+      "Behavioral diagrams",
+      "Structural diagrams",
+      "Deployment diagrams",
+      "Package diagrams"
+    ],
+    "correctAnswer": "Behavioral diagrams",
+    "explanation": "Structural examples include class, component, deployment, object and package diagrams."
+  },
+  {
+    "id": 3,
+    "topic": "Use cases",
+    "difficulty": "Easy",
+    "question": "In a use case diagram, how are actors drawn?",
+    "options": [
+      "As stick figures",
+      "As horizontal ellipses",
+      "As rectangles",
+      "As double-headed arrows"
+    ],
+    "correctAnswer": "As stick figures",
+    "explanation": "Use cases are ellipses and associations are solid lines."
+  },
+  {
+    "id": 4,
+    "topic": "Use cases",
+    "difficulty": "Easy",
+    "question": "How is a use case drawn?",
+    "options": [
+      "As a horizontal ellipse",
+      "As a stick figure",
+      "As a diamond",
+      "As a dashed box"
+    ],
+    "correctAnswer": "As a horizontal ellipse",
+    "explanation": "A use case describes actions that give measurable value to an actor."
+  },
+  {
+    "id": 5,
+    "topic": "Use cases",
+    "difficulty": "Medium",
+    "question": "Which of these can be an actor?",
+    "options": [
+      "A human, an external system, a peripheral device or a time-based event",
+      "Only a human user",
+      "Only software inside the system",
+      "Only the system owner"
+    ],
+    "correctAnswer": "A human, an external system, a peripheral device or a time-based event",
+    "explanation": "An actor is always outside or external to the system."
+  },
+  {
+    "id": 6,
+    "topic": "Use cases",
+    "difficulty": "Medium",
+    "question": "Which name is best for a use case?",
+    "options": [
+      "Process the credit card",
+      "Credit card",
+      "The customer",
+      "Card database"
+    ],
+    "correctAnswer": "Process the credit card",
+    "explanation": "A use case needs a verb, such as Process, Add, Delete, Update or Record."
+  },
+  {
+    "id": 7,
+    "topic": "Use cases",
+    "difficulty": "Easy",
+    "question": "The diagram shows the clinic case: a patient calls to book a yearly checkup. Who is the actor?",
+    "options": [
+      "Patient",
+      "Receptionist",
+      "Appointment book",
+      "Clinic"
+    ],
+    "correctAnswer": "Patient",
+    "explanation": "The actor is the person who initiates the use case. The use case is Make Appointment.",
+    "image": "assets/images/week_03/actor_usecase.svg",
+    "imageAlt": "Patient stick figure linked to the Make Appointment ellipse inside a Clinic System boundary",
+    "imageCaption": "Clinic system"
+  },
+  {
+    "id": 8,
+    "topic": "Use cases",
+    "difficulty": "Medium",
+    "question": "What does the system boundary rectangle represent?",
+    "options": [
+      "The scope of your system",
+      "The list of all actors",
+      "The database",
+      "The testing environment"
+    ],
+    "correctAnswer": "The scope of your system",
+    "explanation": "It shows how actors communicate with the system."
+  },
+  {
+    "id": 9,
+    "topic": "Use cases",
+    "difficulty": "Medium",
+    "question": "A line between an actor and a use case is called:",
+    "options": [
+      "An association (communication)",
+      "An inheritance",
+      "An extension",
+      "A boundary"
+    ],
+    "correctAnswer": "An association (communication)",
+    "explanation": "An association exists whenever an actor is involved in an interaction described by a use case."
+  },
+  {
+    "id": 10,
+    "topic": "Relationships",
+    "difficulty": "Medium",
+    "question": "Which relationship lets a child use case inherit the behaviour of a parent and add to or override it?",
+    "options": [
+      "Inheritance (generalization)",
+      "Include",
+      "Extend",
+      "Association"
+    ],
+    "correctAnswer": "Inheritance (generalization)",
+    "explanation": "It can apply to use cases and to actors, for example graduate and non-graduate student."
+  },
+  {
+    "id": 11,
+    "topic": "Relationships",
+    "difficulty": "Hard",
+    "question": "Where does the arrow point for an <<include>> relationship?",
+    "options": [
+      "From the base use case to the included use case",
+      "From the included use case to the base",
+      "From the actor to the boundary",
+      "From the boundary to the actor"
+    ],
+    "correctAnswer": "From the base use case to the included use case",
+    "explanation": "For <<extend>> it is the other way round."
+  },
+  {
+    "id": 12,
+    "topic": "Communication",
+    "difficulty": "Medium",
+    "question": "Why use use cases as a means of communication?",
+    "options": [
+      "They prompt discussion about what the system should do with people outside the development team",
+      "They replace all documentation",
+      "They show database structure",
+      "They are used only for testing"
+    ],
+    "correctAnswer": "They prompt discussion about what the system should do with people outside the development team",
+    "explanation": "They help owners, users, designers and builders talk to each other."
+  },
+  {
+    "id": 13,
+    "topic": "Communication",
+    "difficulty": "Medium",
+    "question": "Which is a benefit of use case relationships?",
+    "options": [
+      "They can reduce redundancy and improve communication between stakeholders",
+      "They always make diagrams simpler",
+      "They need no skill to draw",
+      "They replace requirements analysis"
+    ],
+    "correctAnswer": "They can reduce redundancy and improve communication between stakeholders",
+    "explanation": "A drawback is they may add complexity and take time to learn."
+  }
+]

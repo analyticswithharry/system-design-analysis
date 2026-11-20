@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 330" font-family="sans-serif" font-size="15"><rect width="640" height="330" fill="#fff"/>
+<g fill="#e8f1f5" stroke="#14212e" stroke-width="2">
+<rect x="10" y="10" width="130" height="34" rx="6"/><rect x="85" y="55" width="130" height="34" rx="6"/><rect x="160" y="100" width="130" height="34" rx="6"/><rect x="235" y="145" width="130" height="34" rx="6"/><rect x="310" y="190" width="130" height="34" rx="6"/><rect x="385" y="235" width="130" height="34" rx="6"/><rect x="460" y="280" width="130" height="34" rx="6"/></g>
+<g fill="#14212e" text-anchor="middle"><text x="75" y="33">Planning</text><text x="150" y="78">Analysis</text><text x="225" y="123">Design</text><text x="300" y="168">Development</text><text x="375" y="213">Testing</text><text x="450" y="258">Implementation</text><text x="525" y="303">Maintenance</text></g>
+<g stroke="#0f8b8d" stroke-width="3" fill="none" stroke-dasharray="6 4"><path d="M600 297H620V30H150"/></g>
+<text x="500" y="22" fill="#0f8b8d" font-weight="bold">go back up to fix problems</text></svg>

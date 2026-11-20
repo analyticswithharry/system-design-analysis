@@ -1,0 +1,243 @@
+[
+  {
+    "id": 1,
+    "topic": "Database basics",
+    "difficulty": "Easy",
+    "question": "Which definition of a database matches the lecture?",
+    "options": [
+      "A collection of data, or a large centralized shared data repository",
+      "A program that draws diagrams",
+      "A network of connected computers",
+      "A report printed each month"
+    ],
+    "correctAnswer": "A collection of data, or a large centralized shared data repository",
+    "explanation": "Database = Data + Base, the place where data is stored."
+  },
+  {
+    "id": 2,
+    "topic": "Database basics",
+    "difficulty": "Easy",
+    "question": "What does a DBMS do?",
+    "options": [
+      "It is software that manages the database",
+      "It stores paper forms",
+      "It draws entity relationship diagrams",
+      "It replaces the users"
+    ],
+    "correctAnswer": "It is software that manages the database",
+    "explanation": "The slides use bank systems (ATMs, online banking, bank managers) as the example."
+  },
+  {
+    "id": 3,
+    "topic": "Database basics",
+    "difficulty": "Medium",
+    "question": "Which four objects are listed when planning a database?",
+    "options": [
+      "Tables, queries, forms and reports",
+      "Tables, keys, rows and columns",
+      "Entities, actors, flows and stores",
+      "Inputs, outputs, files and screens"
+    ],
+    "correctAnswer": "Tables, queries, forms and reports",
+    "explanation": "Tables come first, then queries, forms and reports build on them."
+  },
+  {
+    "id": 4,
+    "topic": "Terms",
+    "difficulty": "Easy",
+    "question": "In a table, what is a record?",
+    "options": [
+      "A row",
+      "A column",
+      "A data type",
+      "A key only"
+    ],
+    "correctAnswer": "A row",
+    "explanation": "A record is a set of fields about one person, item or topic."
+  },
+  {
+    "id": 5,
+    "topic": "Terms",
+    "difficulty": "Easy",
+    "question": "In a table, what is a field?",
+    "options": [
+      "A column holding one single item of data",
+      "A complete row",
+      "A group of tables",
+      "A report"
+    ],
+    "correctAnswer": "A column holding one single item of data",
+    "explanation": "For example Address in a Customer table."
+  },
+  {
+    "id": 6,
+    "topic": "Terms",
+    "difficulty": "Medium",
+    "question": "What is a data type?",
+    "options": [
+      "The format in which data is stored, such as number, text, date or Boolean",
+      "The name of the table",
+      "The person who owns the data",
+      "The key that links two tables"
+    ],
+    "correctAnswer": "The format in which data is stored, such as number, text, date or Boolean",
+    "explanation": "A data dictionary records each field's data type, for example Text(20)."
+  },
+  {
+    "id": 7,
+    "topic": "Relational model",
+    "difficulty": "Medium",
+    "question": "In a relational database, a table is also called a:",
+    "options": [
+      "Relation",
+      "Record",
+      "Query",
+      "Form"
+    ],
+    "correctAnswer": "Relation",
+    "explanation": "A relation is implemented as a table."
+  },
+  {
+    "id": 8,
+    "topic": "Relational model",
+    "difficulty": "Hard",
+    "question": "What does it mean that every attribute must be atomic?",
+    "options": [
+      "Each cell holds only a single value",
+      "Each table has only one column",
+      "Each row is stored in a separate file",
+      "Every field is a number"
+    ],
+    "correctAnswer": "Each cell holds only a single value",
+    "explanation": "This is one of the characteristics of relations."
+  },
+  {
+    "id": 9,
+    "topic": "Relational model",
+    "difficulty": "Medium",
+    "question": "Which statement is a characteristic of a relation?",
+    "options": [
+      "There cannot be two identical rows in one table",
+      "Rows can be repeated as often as needed",
+      "Tables never change over time",
+      "A table has no unique field"
+    ],
+    "correctAnswer": "There cannot be two identical rows in one table",
+    "explanation": "All rows must be distinct, and one field uniquely identifies each row."
+  },
+  {
+    "id": 10,
+    "topic": "Keys",
+    "difficulty": "Easy",
+    "question": "What is a primary key?",
+    "options": [
+      "A field that uniquely identifies each row",
+      "A field copied from another table",
+      "The first column of every table",
+      "A field that can be empty"
+    ],
+    "correctAnswer": "A field that uniquely identifies each row",
+    "explanation": "It is usually underlined when modelling."
+  },
+  {
+    "id": 11,
+    "topic": "Keys",
+    "difficulty": "Medium",
+    "question": "A table has two unique keys. What should the developer do?",
+    "options": [
+      "Decide on one of them to be the primary key",
+      "Use both as foreign keys",
+      "Delete one of the fields",
+      "Leave the table without a key"
+    ],
+    "correctAnswer": "Decide on one of them to be the primary key",
+    "explanation": "If there is only one unique key, that key is the primary key."
+  },
+  {
+    "id": 12,
+    "topic": "Keys",
+    "difficulty": "Medium",
+    "question": "What is a foreign key?",
+    "options": [
+      "An attribute that is not the primary key in its table but is the primary key in another table",
+      "The primary key of the first table in the database",
+      "A key that is hidden from users",
+      "A key that must always be a number"
+    ],
+    "correctAnswer": "An attribute that is not the primary key in its table but is the primary key in another table",
+    "explanation": "Foreign keys link tables together, which is the most important part of relational modelling."
+  },
+  {
+    "id": 13,
+    "topic": "Keys",
+    "difficulty": "Medium",
+    "question": "Why does the library example put StudentID in BookLoan instead of repeating the student's name, address and course?",
+    "options": [
+      "To avoid duplicated data, redundancy and errors",
+      "To make the table longer",
+      "Because names cannot be stored",
+      "Because dates need a key"
+    ],
+    "correctAnswer": "To avoid duplicated data, redundancy and errors",
+    "explanation": "Repeated details can disagree, for example Martin's address shown as Edinburgh in one place and Glasgow in another."
+  },
+  {
+    "id": 14,
+    "topic": "Keys",
+    "difficulty": "Hard",
+    "question": "In the library tables, which BookLoan attributes are foreign keys?",
+    "options": [
+      "StudentID and ISBN",
+      "LoanID and Date",
+      "Date and Period",
+      "LoanID only"
+    ],
+    "correctAnswer": "StudentID and ISBN",
+    "explanation": "They are the primary keys of Student and Book. LoanID is the primary key of BookLoan.",
+    "image": "assets/images/week_04/library_tables.svg",
+    "imageAlt": "Student, Book and BookLoan tables with their attributes",
+    "imageCaption": "Library system"
+  },
+  {
+    "id": 15,
+    "topic": "Integrity",
+    "difficulty": "Medium",
+    "question": "What does entity integrity say?",
+    "options": [
+      "Primary keys cannot have repetitions or null values",
+      "Foreign keys must be empty",
+      "Every table needs two keys",
+      "Rows must be sorted"
+    ],
+    "correctAnswer": "Primary keys cannot have repetitions or null values",
+    "explanation": "Entity integrity is about the primary key inside one table."
+  },
+  {
+    "id": 16,
+    "topic": "Integrity",
+    "difficulty": "Medium",
+    "question": "What does referential integrity say?",
+    "options": [
+      "You cannot have a foreign key value that does not exist in the original table",
+      "Every table must have a foreign key",
+      "Primary keys must be numbers",
+      "Two tables cannot share a field name"
+    ],
+    "correctAnswer": "You cannot have a foreign key value that does not exist in the original table",
+    "explanation": "It relates to the linking between tables defined by primary and foreign keys."
+  },
+  {
+    "id": 17,
+    "topic": "Integrity",
+    "difficulty": "Hard",
+    "question": "Khalil drops out and his student record is deleted. With the referential integrity option described in the lecture, what happens?",
+    "options": [
+      "His records in other tables, such as his loans, are deleted too",
+      "His loans stay and point to nowhere",
+      "The deletion is cancelled",
+      "His loans move to another student"
+    ],
+    "correctAnswer": "His records in other tables, such as his loans, are deleted too",
+    "explanation": "Otherwise the BookLoan table would link to nowhere."
+  }
+]

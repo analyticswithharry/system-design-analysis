@@ -1,0 +1,280 @@
+[
+  {
+    "id": 1,
+    "topic": "Why model",
+    "difficulty": "Easy",
+    "question": "Which is a benefit of modelling a database?",
+    "options": [
+      "It helps detect missing data and problems before implementation",
+      "It removes the need for users",
+      "It makes the database run faster on its own",
+      "It replaces the DBMS"
+    ],
+    "correctAnswer": "It helps detect missing data and problems before implementation",
+    "explanation": "Modelling also helps understand users' needs and improve the design."
+  },
+  {
+    "id": 2,
+    "topic": "ERD basics",
+    "difficulty": "Easy",
+    "question": "In an E-R diagram, what do entities, relationships and attributes stand for?",
+    "options": [
+      "Tables, links and fields",
+      "Fields, tables and links",
+      "Users, screens and reports",
+      "Rows, columns and keys"
+    ],
+    "correctAnswer": "Tables, links and fields",
+    "explanation": "An entity is a table, a relationship is a link between entities, and attributes are the fields."
+  },
+  {
+    "id": 3,
+    "topic": "ERD basics",
+    "difficulty": "Medium",
+    "question": "In the lecture's E-R notation, how is an attribute drawn?",
+    "options": [
+      "As an oval",
+      "As a square",
+      "As a link",
+      "As a stick figure"
+    ],
+    "correctAnswer": "As an oval",
+    "explanation": "An entity is a square and a relationship is a link between two entities."
+  },
+  {
+    "id": 4,
+    "topic": "ERD basics",
+    "difficulty": "Medium",
+    "question": "How should a relationship be named?",
+    "options": [
+      "With a clear verb, ideally one word",
+      "With a noun phrase",
+      "With a number",
+      "With the name of a key"
+    ],
+    "correctAnswer": "With a clear verb, ideally one word",
+    "explanation": "For example a Student enrolls in a Programme."
+  },
+  {
+    "id": 5,
+    "topic": "Constraints",
+    "difficulty": "Medium",
+    "question": "What do optionality and cardinality mean?",
+    "options": [
+      "Optionality is the minimum and cardinality is the maximum number of related instances",
+      "Optionality is the maximum and cardinality is the minimum",
+      "Both mean the number of attributes",
+      "Both mean the number of tables"
+    ],
+    "correctAnswer": "Optionality is the minimum and cardinality is the maximum number of related instances",
+    "explanation": "Together they give constraints such as one, one to many, or zero to many."
+  },
+  {
+    "id": 6,
+    "topic": "Constraints",
+    "difficulty": "Medium",
+    "question": "A Student can enroll in one Programme at a time only. Which constraint fits Student to Programme?",
+    "options": [
+      "Min one, max one",
+      "Min zero, max many",
+      "Min one, max many",
+      "Min zero, max one"
+    ],
+    "correctAnswer": "Min one, max one",
+    "explanation": "This is written as simply 'one'."
+  },
+  {
+    "id": 7,
+    "topic": "Constraints",
+    "difficulty": "Medium",
+    "question": "A Lecturer can teach on zero to many Programmes. Which constraint is that?",
+    "options": [
+      "Min zero, max many",
+      "Min one, max one",
+      "Min one, max many",
+      "Min zero, max one"
+    ],
+    "correctAnswer": "Min zero, max many",
+    "explanation": "A lecturer might not teach any programme at a given time."
+  },
+  {
+    "id": 8,
+    "topic": "Constraints",
+    "difficulty": "Hard",
+    "question": "Per the lecture's answers, what is the constraint from Employee to Project?",
+    "options": [
+      "An employee can work on zero to many projects",
+      "An employee works on exactly one project",
+      "An employee works on one to many projects",
+      "An employee never works on projects"
+    ],
+    "correctAnswer": "An employee can work on zero to many projects",
+    "explanation": "A Project, in turn, can have one to many Employees."
+  },
+  {
+    "id": 9,
+    "topic": "Many to many",
+    "difficulty": "Medium",
+    "question": "Why must a many-to-many relationship be resolved at E-R level?",
+    "options": [
+      "It cannot be implemented directly in a database",
+      "It uses too many attributes",
+      "It has no verb",
+      "It always has a null key"
+    ],
+    "correctAnswer": "It cannot be implemented directly in a database",
+    "explanation": "The usual fix is to add an associative entity."
+  },
+  {
+    "id": 10,
+    "topic": "Many to many",
+    "difficulty": "Hard",
+    "question": "In the diagram, an Employee works on many Projects and a Project has many Employees. How is this resolved?",
+    "options": [
+      "Add an associative entity, such as Proj_Emp, holding both primary keys",
+      "Delete the Project entity",
+      "Add a recursive relationship",
+      "Merge both entities into one"
+    ],
+    "correctAnswer": "Add an associative entity, such as Proj_Emp, holding both primary keys",
+    "explanation": "Proj_Emp holds an ID, Proj_ID and Emp_ID, so each row links one project to one employee.",
+    "image": "assets/images/week_05/many_to_many.svg",
+    "imageAlt": "Employee and Project entities joined by a works on line with crow's feet at both ends",
+    "imageCaption": "Many-to-many relationship"
+  },
+  {
+    "id": 11,
+    "topic": "Advanced concepts",
+    "difficulty": "Medium",
+    "question": "What is an associative entity?",
+    "options": [
+      "An entity that inherits its primary key from more than one parent entity",
+      "An entity with no attributes",
+      "An entity with a single field",
+      "An entity that stores reports"
+    ],
+    "correctAnswer": "An entity that inherits its primary key from more than one parent entity",
+    "explanation": "Each part of the concatenated key points to one instance of each parent."
+  },
+  {
+    "id": 12,
+    "topic": "Advanced concepts",
+    "difficulty": "Medium",
+    "question": "What is a recursive relationship?",
+    "options": [
+      "A relationship between instances of the same entity",
+      "A relationship between three entities",
+      "A relationship with no verb",
+      "A relationship that cannot be drawn"
+    ],
+    "correctAnswer": "A relationship between instances of the same entity",
+    "explanation": "It is one of the advanced relationship types in the lecture."
+  },
+  {
+    "id": 13,
+    "topic": "Advanced concepts",
+    "difficulty": "Hard",
+    "question": "In generalization, what does a supertype store?",
+    "options": [
+      "Attributes common to one or more subtypes",
+      "Attributes unique to a single subtype",
+      "Only primary keys",
+      "Only foreign keys"
+    ],
+    "correctAnswer": "Attributes common to one or more subtypes",
+    "explanation": "A subtype inherits the common attributes and adds its own."
+  },
+  {
+    "id": 14,
+    "topic": "Keys",
+    "difficulty": "Hard",
+    "question": "What is an alternate key?",
+    "options": [
+      "A candidate key not selected to become the primary key",
+      "A key copied into another table",
+      "A key made of two entities",
+      "A key that can be null"
+    ],
+    "correctAnswer": "A candidate key not selected to become the primary key",
+    "explanation": "It is sometimes called a secondary key."
+  },
+  {
+    "id": 15,
+    "topic": "Keys",
+    "difficulty": "Medium",
+    "question": "What is a concatenated key?",
+    "options": [
+      "A group of attributes that together uniquely identify an instance",
+      "A key that is always a single number",
+      "A key that links to a report",
+      "A key that is not unique"
+    ],
+    "correctAnswer": "A group of attributes that together uniquely identify an instance",
+    "explanation": "It is also called a composite or compound key."
+  },
+  {
+    "id": 16,
+    "topic": "Data dictionary",
+    "difficulty": "Medium",
+    "question": "Which logical data type allows only two values?",
+    "options": [
+      "YES/NO",
+      "TEXT",
+      "MEMO",
+      "VALUE SET"
+    ],
+    "correctAnswer": "YES/NO",
+    "explanation": "TEXT holds characters, including numbers that will not be used in arithmetic."
+  },
+  {
+    "id": 17,
+    "topic": "Cinema case",
+    "difficulty": "Medium",
+    "question": "In the cinema ERD, which attribute in Show links it to Movie?",
+    "options": [
+      "Movie ID (foreign key)",
+      "Show ID (primary key)",
+      "Time",
+      "Duration"
+    ],
+    "correctAnswer": "Movie ID (foreign key)",
+    "explanation": "Show ID is the primary key. Movie ID is the primary key of Movie, so it is a foreign key here.",
+    "image": "assets/images/week_05/cinema_erd.jpg",
+    "imageAlt": "ERD with Theatre, Seats, Ticket, Show and Movie entities and their keys",
+    "imageCaption": "Cinema booking system"
+  },
+  {
+    "id": 18,
+    "topic": "Cinema case",
+    "difficulty": "Hard",
+    "question": "In the cinema ERD, what makes up the primary key of Seats?",
+    "options": [
+      "Row Number and Seat Number together",
+      "Theatre Number only",
+      "Ticket ID",
+      "Seat Number only"
+    ],
+    "correctAnswer": "Row Number and Seat Number together",
+    "explanation": "Both are marked PK, so it is a concatenated key. Theatre Number is the foreign key.",
+    "image": "assets/images/week_05/cinema_erd.jpg",
+    "imageAlt": "ERD with Theatre, Seats, Ticket, Show and Movie entities and their keys",
+    "imageCaption": "Cinema booking system"
+  },
+  {
+    "id": 19,
+    "topic": "Cinema case",
+    "difficulty": "Medium",
+    "question": "In the online cinema booking version, which entity links Customer to Show?",
+    "options": [
+      "Booking",
+      "Ticket",
+      "Seats",
+      "Movie"
+    ],
+    "correctAnswer": "Booking",
+    "explanation": "Booking holds Customer ID and Show ID as foreign keys, and Ticket then links to Booking.",
+    "image": "assets/images/week_05/cinema_online_erd.png",
+    "imageAlt": "Online cinema ERD with Customer, Booking, Ticket, Show, Movie, Theatre and Seats",
+    "imageCaption": "Online booking version"
+  }
+]

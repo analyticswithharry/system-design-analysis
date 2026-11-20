@@ -1,0 +1,12 @@
+{
+  "name": "cn7039-quiz",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Quiz site driven by JSON files and images stored in the repo",
+  "engines": { "node": ">=18" },
+  "scripts": {
+    "dev": "node server.js",
+    "validate": "node scripts/validate.js",
+    "build": "node scripts/validate.js"
+  }
+}

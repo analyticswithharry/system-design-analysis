@@ -1,0 +1,212 @@
+[
+  {
+    "id": 1,
+    "topic": "Key terms",
+    "difficulty": "Easy",
+    "question": "What is a system, as defined in the lecture?",
+    "options": [
+      "Anything that takes an input, processes it and produces an output",
+      "A computer that stores data",
+      "A network of connected devices",
+      "A piece of software that a company buys"
+    ],
+    "correctAnswer": "Anything that takes an input, processes it and produces an output",
+    "explanation": "A system is not exclusive to computers. Examples include an air conditioning system or the respiratory system."
+  },
+  {
+    "id": 2,
+    "topic": "Key terms",
+    "difficulty": "Easy",
+    "question": "Which statement best separates data from information?",
+    "options": [
+      "Data are raw facts; information is data given meaning in a specific context",
+      "Data is stored on disk; information is stored in memory",
+      "Data is always numeric; information is always text",
+      "They mean the same thing"
+    ],
+    "correctAnswer": "Data are raw facts; information is data given meaning in a specific context",
+    "explanation": "The slides use temperature, movie rental price and age as examples of data."
+  },
+  {
+    "id": 3,
+    "topic": "Stakeholders",
+    "difficulty": "Easy",
+    "question": "Who are the System Owners?",
+    "options": [
+      "The sponsors and executives who usually pay for the project",
+      "The people who write the code",
+      "The staff who use the system daily",
+      "The specialists who draw the blueprints"
+    ],
+    "correctAnswer": "The sponsors and executives who usually pay for the project",
+    "explanation": "System owners are also called clients and investors."
+  },
+  {
+    "id": 4,
+    "topic": "Stakeholders",
+    "difficulty": "Medium",
+    "question": "Which group translates user requirements into databases, inputs, outputs, screens and networks?",
+    "options": [
+      "System designers",
+      "System builders",
+      "System owners",
+      "External suppliers"
+    ],
+    "correctAnswer": "System designers",
+    "explanation": "Designers produce the blueprints; builders then implement them."
+  },
+  {
+    "id": 5,
+    "topic": "Stakeholders",
+    "difficulty": "Medium",
+    "question": "A remote user is best described as someone who:",
+    "options": [
+      "Is not on the premises but still needs access to the system",
+      "Constantly changes location while using the system",
+      "Owns the system",
+      "Builds the system"
+    ],
+    "correctAnswer": "Is not on the premises but still needs access to the system",
+    "explanation": "A mobile user is the one whose location is constantly changing."
+  },
+  {
+    "id": 6,
+    "topic": "Analysts",
+    "difficulty": "Easy",
+    "question": "Which type of analyst focuses only on non-technical aspects of analysis and design?",
+    "options": [
+      "Business analyst",
+      "System analyst",
+      "System builder",
+      "Project manager"
+    ],
+    "correctAnswer": "Business analyst",
+    "explanation": "A system analyst analyses the system to identify problems and suggest solutions."
+  },
+  {
+    "id": 7,
+    "topic": "Business drivers",
+    "difficulty": "Medium",
+    "question": "Which business driver requires systems to support multiple languages, currencies and consolidation of international data?",
+    "options": [
+      "Globalization of the economy",
+      "Knowledge asset management",
+      "Business process redesign",
+      "Total quality management"
+    ],
+    "correctAnswer": "Globalization of the economy",
+    "explanation": "A global economy brings new international markets and new international competition."
+  },
+  {
+    "id": 8,
+    "topic": "Business drivers",
+    "difficulty": "Medium",
+    "question": "What is e-commerce according to the lecture?",
+    "options": [
+      "Buying and selling goods and services using the Internet",
+      "Using the Internet to run day-to-day business activities",
+      "Designing a company's intranet",
+      "Storing customer data in the cloud"
+    ],
+    "correctAnswer": "Buying and selling goods and services using the Internet",
+    "explanation": "E-business is the broader use of the Internet to conduct and support day-to-day activities."
+  },
+  {
+    "id": 9,
+    "topic": "Business drivers",
+    "difficulty": "Hard",
+    "question": "How does business process redesign (BPR) differ from continuous process improvement (CPI)?",
+    "options": [
+      "BPR makes more substantial changes to fundamental processes; CPI makes small, measurable improvements",
+      "BPR is cheaper and slower than CPI",
+      "CPI replaces whole processes; BPR only tweaks them",
+      "They are the same approach"
+    ],
+    "correctAnswer": "BPR makes more substantial changes to fundamental processes; CPI makes small, measurable improvements",
+    "explanation": "BPR is usually complemented by CPI."
+  },
+  {
+    "id": 10,
+    "topic": "Business drivers",
+    "difficulty": "Medium",
+    "question": "Knowledge asset management is concerned with:",
+    "options": [
+      "Preserving knowledge when experienced workers leave",
+      "Buying new hardware",
+      "Reducing the number of suppliers",
+      "Translating software into other languages"
+    ],
+    "correctAnswer": "Preserving knowledge when experienced workers leave",
+    "explanation": "It treats data, information and knowledge as critical business resources."
+  },
+  {
+    "id": 11,
+    "topic": "Enterprise applications",
+    "difficulty": "Easy",
+    "question": "Which enterprise application automates tracking inventory and information from suppliers through the company to products?",
+    "options": [
+      "SCM (Supply Chain Management)",
+      "CRM (Customer Relationship Management)",
+      "HRM",
+      "Accounting system"
+    ],
+    "correctAnswer": "SCM (Supply Chain Management)",
+    "explanation": "A supply chain is the process by which inventory moves from suppliers, through the company, and out as product."
+  },
+  {
+    "id": 12,
+    "topic": "Enterprise applications",
+    "difficulty": "Easy",
+    "question": "Which system uses information about customers to understand their needs, wants and behaviour so they can be served better?",
+    "options": [
+      "CRM",
+      "ERP",
+      "SCM",
+      "TQM"
+    ],
+    "correctAnswer": "CRM",
+    "explanation": "CRM covers the customer relationship from initial inquiry through post-sale service and support."
+  },
+  {
+    "id": 13,
+    "topic": "Enterprise applications",
+    "difficulty": "Medium",
+    "question": "ERP is described as:",
+    "options": [
+      "A collection of integrated software covering all technology systems in the organization",
+      "A tool for tracking customers only",
+      "A method for testing software",
+      "A type of project plan"
+    ],
+    "correctAnswer": "A collection of integrated software covering all technology systems in the organization",
+    "explanation": "The slides note ERP is the most expensive system."
+  },
+  {
+    "id": 14,
+    "topic": "Development process",
+    "difficulty": "Medium",
+    "question": "Which phase studies a business problem domain and specifies the business requirements and priorities?",
+    "options": [
+      "System analysis",
+      "System initiation",
+      "System design",
+      "System implementation"
+    ],
+    "correctAnswer": "System analysis",
+    "explanation": "Initiation is the early planning of scope, goals, schedule and budget."
+  },
+  {
+    "id": 15,
+    "topic": "Problem solving",
+    "difficulty": "Hard",
+    "question": "In the doctor example, ibuprofen, a salt-water gargle and painkillers only treat symptoms. What is the lesson?",
+    "options": [
+      "Identify and treat the source of the problem, not just the symptoms",
+      "Treat every symptom separately",
+      "Ask a consultant to diagnose",
+      "Wait until the problem gets worse"
+    ],
+    "correctAnswer": "Identify and treat the source of the problem, not just the symptoms",
+    "explanation": "The real problem was a throat infection, which may need antibiotics."
+  }
+]
